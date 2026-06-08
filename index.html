@@ -1,0 +1,832 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rushikesh Wadje | Supply Chain, Operations & Systems Engineering</title>
+    <meta name="description" content="Personal portfolio of Rushikesh Wadje, a Mechanical Engineering student at NIT Calicut focusing on Supply Chain systems, operations management, and analytical problem solving.">
+    <!-- Google Fonts: Space Grotesk for headings, Inter for body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Ambient Operations Schematic Canvas Overlay -->
+    <canvas id="ambient-canvas" class="ambient-canvas"></canvas>
+
+    <!-- Premium Loader curtain -->
+    <div class="system-loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-logo">RUSHIKESH WADJE</div>
+            <div class="loader-sub">SUPPLY CHAIN & OPERATIONS</div>
+            <div class="loader-bar-container">
+                <div class="loader-bar"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Navigation Header -->
+    <header class="nav-header" id="nav-header">
+        <div class="container nav-container">
+            <a href="#home" class="nav-brand">RUSHIKESH WADJE<span>/ SCM & OPS</span></a>
+            
+            <button class="nav-mobile-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav>
+                <ul class="nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#experience" class="nav-link">Experience</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#capabilities" class="nav-link">Capabilities</a></li>
+                    <li><a href="#field-notes" class="nav-link">Field Notes</a></li>
+                    <li><a href="#photography" class="nav-link">Photography</a></li>
+                    <li><a href="#resume" class="nav-link">Resume</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Container for Unified Long-Form Page -->
+    <main class="main-content">
+
+        <!-- ==========================================
+             1. HERO SECTION
+             ========================================== -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-left">
+                    <div class="eyebrow">Supply Chain • Operations • Management</div>
+                    <h1 class="hero-headline">Rushikesh<br>Wadje</h1>
+                    <p class="hero-subtext">A Mechanical Engineering student at NIT Calicut exploring operations, supply chains, and structured problem solving through projects, leadership, and real-world industry exposure.</p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                        <a href="#resume" class="btn btn-secondary">Resume</a>
+                    </div>
+                </div>
+                <div class="hero-right">
+                    <!-- Pure editorial natural placement, no border, no frame -->
+                    <div class="hero-portrait-container">
+                        <img src="assets/portrait.png" alt="Rushikesh Wadje Portrait" class="hero-portrait-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             2. ABOUT SECTION
+             ========================================== -->
+        <section id="about" class="section-padding">
+            <div class="container grid-editorial">
+                <div class="section-label">
+                    <div class="eyebrow">Identity</div>
+                    <h2>About.</h2>
+                </div>
+                <div class="editorial-text">
+                    <p>I am a Mechanical Engineering undergraduate at NIT Calicut (Class of 2027), working at the intersection of <strong>supply chain systems, operations management</strong>, and structured analytical problem-solving.</p>
+                    
+                    <p>My approach is end-to-end. I focus on understanding the full flow of materials and processes rather than isolated steps, identifying where bottlenecks form and what metrics would make performance legible. During my current internship at <strong>Micron Group of Industries</strong>, I have been applying this on an active shop floor, supporting WMS implementation and contributing to inventory operations as part of the plant team.</p>
+                    
+                    <p>I founded <strong>The War Room</strong>, a monthly analytical discussion forum at NIT Calicut focused on global developments, macroeconomics, trade policy, and industrial strategy. The format is structured debate and multi-perspective breakdown, oriented toward building reasoning depth rather than surface-level commentary.</p>
+                    
+                    <p>I also publish a weekly newsletter on LinkedIn covering global supply chain developments, trade shifts, and logistics trends, aimed at building a consistent habit of tracking how the world moves goods and why it matters.</p>
+                    
+                    <p>Beyond this, I have managed budgets exceeding ₹1,00,000 as Treasurer for the Skylight Interdepartment Exhibition, represented the Centre of Excellence in Logistics and Supply Chain Management as a Student Ambassador, and contributed across research, consulting, and operations contexts at the institute level.</p>
+                    
+                    <p>I am drawn to work where systems thinking meets execution ownership, supply chain strategy, operations research, and the analytical layer that connects the two.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             4. EXPERIENCE SECTION (TIMELINE)
+             ========================================== -->
+        <section id="experience" class="section-padding">
+            <div class="container">
+                <div class="grid-editorial" style="margin-bottom: 80px;">
+                    <div class="section-label">
+                        <div class="eyebrow">Track Record</div>
+                        <h2>Experience.</h2>
+                    </div>
+                    <div class="editorial-text">
+                        <p>A timeline of internships, leadership positions, and organizational execution focusing on process control, administrative ownership, and structured operations.</p>
+                    </div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Exp 1 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-time">May 2026 – Present</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-role">Supply Chain & Operations Intern</h3>
+                            <div class="timeline-org">Micron Precision Screws Pvt. Ltd. (MPS) • Rohtak, Haryana</div>
+                            <p class="timeline-desc">Supported plant-level warehouse management system (WMS) deployment and assembly-line operations across three manufacturing facilities.</p>
+                            <ul class="timeline-bullets">
+                                <li>Mapped pick-routing workflows and stock locations for over 3,0,000 fastener SKU variants to streamline staging zones.</li>
+                                <li>Analyzed container handling operations to optimize staging layouts, reducing sorting lines bottlenecks.</li>
+                                <li>Supported standard procedures development to ensure digital inventory synchronization with physical flow.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Exp 2 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-time">June 2025 – July 2025</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-role">Academic SCM & Research Intern</h3>
+                            <div class="timeline-org">Centre of Excellence in Logistics & Supply Chain Management (CoELSCM) • NIT Calicut</div>
+                            <p class="timeline-desc">Managed end-to-end simulation research and operations workflow modeling to analyze warehouse logistics efficiency.</p>
+                            <ul class="timeline-bullets">
+                                <li>Conducted warehouse simulation modeling using AnyLogic PLE to analyze and optimize operational workflows.</li>
+                                <li>Enhanced simulation realism by implementing randomized pallet arrival distributions and preloading 10% inventory.</li>
+                                <li>Built an automated Excel-based data export pipeline to capture, track, and benchmark picking performance KPIs.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Exp 3 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-time">Jan 2025 – Present</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-role">Student Ambassador</h3>
+                            <div class="timeline-org">Centre of Excellence in Logistics & Supply Chain Management • NIT Calicut</div>
+                            <p class="timeline-desc">Liaise between the center coordinators, external researchers, and student networks.</p>
+                            <ul class="timeline-bullets">
+                                <li>Coordinate student outreach programs and organize workshops covering operations research, logistics, and SCM.</li>
+                                <li>Represent the center in academic conferences, research forums, and campus activities.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Exp 4 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-time">Nov 2025 – Present</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-role">Assistant Secretary</h3>
+                            <div class="timeline-org">Industrial and Planning Forum (IPF) • NIT Calicut</div>
+                            <p class="timeline-desc">Coordinate strategic planning and team activities for NIT Calicut's premier industrial affairs club.</p>
+                            <ul class="timeline-bullets">
+                                <li>Organize case study competitions, operations bootcamps, and structured debates.</li>
+                                <li>Founded and manage "The War Room", a monthly forum discussing macroeconomic trends, trade corridors, and chokepoints.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Exp 5 -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-time">2024 – 2025</div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-role">Coordinator & Treasurer</h3>
+                            <div class="timeline-org">Skylight Interdepartment Project Exhibition • NIT Calicut</div>
+                            <p class="timeline-desc">Managed complete financial planning and procurement across two editions of the project exhibition.</p>
+                            <ul class="timeline-bullets">
+                                <li>Supervised financial ledgers and allocated budgets exceeding ₹1,00,000 with complete audit trail integrity.</li>
+                                <li>Negotiated hardware and staging contracts with external suppliers, ensuring cost efficiency under deadlines.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             3. PROJECTS SECTION (SELECTED WORK)
+             ========================================== -->
+        <section id="projects" class="section-padding">
+            <div class="container">
+                <div class="grid-editorial" style="margin-bottom: 60px;">
+                    <div class="section-label">
+                        <div class="eyebrow">Portfolio</div>
+                        <h2>Selected Work.</h2>
+                    </div>
+                    <div class="editorial-text">
+                        <p>Detailed performance audits and optimization models demonstrating a quantitative, structures-driven approach to solving operational bottlenecks.</p>
+                    </div>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card" data-project-idx="0">
+                        <div class="project-card-inner">
+                            <div class="project-meta">
+                                <span class="project-year">2025</span>
+                                <span class="project-type">Business Analytics</span>
+                            </div>
+                            <h3>DataCo Global Performance Analysis</h3>
+                            <p class="project-desc">Audited a global transaction database containing 180,519 records to identify a systemic 54.83% late delivery rate and analyze the resulting profit margin constraints.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Excel Analytics</span>
+                                <span class="project-tag">SLA Breach Auditing</span>
+                                <span class="project-tag">Executive BI</span>
+                            </div>
+                            <span class="project-link">View Case Study &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card" data-project-idx="1">
+                        <div class="project-card-inner">
+                            <div class="project-meta">
+                                <span class="project-year">2026</span>
+                                <span class="project-type">Operations Research</span>
+                            </div>
+                            <h3>GIS-Optimized Last-Mile Locker Network</h3>
+                            <p class="project-desc">Formulated a bi-level multi-objective MILP, bipartite network analysis, and SimPy simulation to optimize a 20-site parcel locker network in Indiranagar, Bangalore, saving 825 tonnes of CO₂ annually.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">Bi-Level MILP</span>
+                                <span class="project-tag">Bipartite Network</span>
+                                <span class="project-tag">SimPy Simulation</span>
+                                <span class="project-tag">QGIS Geopandas</span>
+                            </div>
+                            <span class="project-link">View Case Study &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 3 -->
+                    <div class="project-card" data-project-idx="2">
+                        <div class="project-card-inner">
+                            <div class="project-meta">
+                                <span class="project-year">2025</span>
+                                <span class="project-type">Systems Engineering</span>
+                            </div>
+                            <h3>Warehouse Simulation &amp; Realism Enhancement</h3>
+                            <p class="project-desc">Developed a randomized preloaded inventory model and automated Excel data pipelines in AnyLogic PLE to simulate and capture real-world warehouse operations.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">AnyLogic PLE</span>
+                                <span class="project-tag">Simulation Realism</span>
+                                <span class="project-tag">Data Export Pipeline</span>
+                            </div>
+                            <span class="project-link">View Case Study &rarr;</span>
+                        </div>
+                    </div>
+
+                    <!-- Project 4 -->
+                    <div class="project-card" data-project-idx="3">
+                        <div class="project-card-inner">
+                            <div class="project-meta">
+                                <span class="project-year">2025</span>
+                                <span class="project-type">Cost Optimization</span>
+                            </div>
+                            <h3>Cost Optimization &amp; Vendor Strategy: NIT Calicut Mess</h3>
+                            <p class="project-desc">Conducted a full spend analysis across a Rs. 8.49L monthly budget and 81 product categories to identify top cost drivers and develop a strategic vendor prioritization framework.</p>
+                            <div class="project-tags">
+                                <span class="project-tag">ABC-Pareto</span>
+                                <span class="project-tag">Vendor Prioritization</span>
+                                <span class="project-tag">Excel Dashboard</span>
+                            </div>
+                            <span class="project-link">View Case Study &rarr;</span>
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </section>
+
+        <!-- ==========================================
+             5. CAPABILITIES SECTION
+             ========================================== -->
+        <section id="capabilities" class="section-padding">
+            <div class="container">
+                <div class="grid-editorial" style="margin-bottom: 80px;">
+                    <div class="section-label">
+                        <div class="eyebrow">Skills</div>
+                        <h2>Capabilities.</h2>
+                    </div>
+                    <div class="editorial-text">
+                        <p>An interactive operations mapping dashboard outlining functional competencies and technical toolkits built through project execution and shop-floor exposure.</p>
+                    </div>
+                </div>
+
+                <div class="capabilities-container">
+                    <!-- Interactive Capability Map (SVG routes connect nodes) -->
+                    <div class="capabilities-map-box">
+                        <div class="capabilities-map" id="capabilities-interactive-map">
+                            <svg class="map-connections" viewBox="0 0 500 400">
+                                <line x1="150" y1="100" x2="350" y2="100" class="map-connection-line"/>
+                                <line x1="150" y1="100" x2="100" y2="250" class="map-connection-line"/>
+                                <line x1="350" y1="100" x2="400" y2="250" class="map-connection-line"/>
+                                <line x1="100" y1="250" x2="250" y2="320" class="map-connection-line"/>
+                                <line x1="400" y1="250" x2="250" y2="320" class="map-connection-line"/>
+                            </svg>
+
+                            <!-- Nodes -->
+                            <button class="map-node node-sc active" data-cap="sc" style="top: 25%; left: 30%;" aria-label="Supply Chain node">
+                                <span class="node-dot"></span>
+                                <span class="node-txt">Supply Chain</span>
+                            </button>
+                            <button class="map-node node-ops" data-cap="ops" style="top: 25%; left: 70%;" aria-label="Operations node">
+                                <span class="node-dot"></span>
+                                <span class="node-txt">Operations</span>
+                            </button>
+                            <button class="map-node node-analytics" data-cap="analytics" style="top: 62%; left: 20%;" aria-label="Analytics node">
+                                <span class="node-dot"></span>
+                                <span class="node-txt">Analytics</span>
+                            </button>
+                            <button class="map-node node-strategy" data-cap="strategy" style="top: 62%; left: 80%;" aria-label="Strategy node">
+                                <span class="node-dot"></span>
+                                <span class="node-txt">Strategy</span>
+                            </button>
+                            <button class="map-node node-leadership" data-cap="leadership" style="top: 80%; left: 50%;" aria-label="Leadership node">
+                                <span class="node-dot"></span>
+                                <span class="node-txt">Leadership</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Selected Capability Detail Card -->
+                    <div class="capability-card" id="capability-detail-card">
+                        <div class="capability-card-inner">
+                            <h3 class="cap-title" id="cap-card-title">Supply Chain Management</h3>
+                            <p class="cap-desc" id="cap-card-desc">Designing, tracking, and optimizing network flows. Hands-on experience with SKU sizing (3000+ variants), pick routing, inventory management, and WMS software integration in high-throughput settings.</p>
+                            <div class="cap-list-container">
+                                <span class="cap-list-title">Core Sub-systems</span>
+                                <ul class="cap-list" id="cap-card-list">
+                                    <li>WMS Integration</li>
+                                    <li>Network Routing</li>
+                                    <li>SKU Sizing & Audits</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             6. FIELD NOTES SECTION
+             ========================================== -->
+        <section id="field-notes" class="section-padding">
+            <div class="container">
+                <div class="grid-editorial" style="margin-bottom: 80px;">
+                    <div class="section-label">
+                        <div class="eyebrow">Insights</div>
+                        <h2>Field Notes.</h2>
+                    </div>
+                    <div class="editorial-text">
+                        <p>Brief briefings and structural analyses covering operations management, simulation modeling, supply chain strategy, and industry observations.</p>
+                    </div>
+                </div>
+
+                <div class="notes-grid" id="notes-grid-view">
+                    <!-- Note 1 -->
+                    <div class="note-card" data-note-idx="0">
+                        <div class="note-meta">May 28, 2026 • Shop Floor Insights</div>
+                        <h3>Shop Floor Realities: WMS & SKU Scaling</h3>
+                        <p class="note-excerpt">Analyzing the friction of managing fastener SKU proliferation on high-throughput assembly lines. Observations on implementing digital WMS guidelines inside complex staging zones.</p>
+                        <span class="note-link">Read Briefing &rarr;</span>
+                    </div>
+
+                    <!-- Note 2 -->
+                    <div class="note-card" data-note-idx="1">
+                        <div class="note-meta">Apr 12, 2025 • Simulation Modeling</div>
+                        <h3>The Dynamics of Simulating Layout Efficiency</h3>
+                        <p class="note-excerpt">Applying discrete-event networks inside warehouse models. Reflections on mapping arrival margins, conveyor queues, and isolating quality inspection gates bottlenecks.</p>
+                        <span class="note-link">Read Briefing &rarr;</span>
+                    </div>
+
+                    <!-- Note 3 -->
+                    <div class="note-card" data-note-idx="2">
+                        <div class="note-meta">Mar 05, 2025 • Procurement Logistics</div>
+                        <h3>Applying Systems Thinking to Dining Sourcing</h3>
+                        <p class="note-excerpt">An operational case study mapping Pareto-ABC spent classification models to institutional dining budgets. Identifying vendor consolidation parameters and negotiation levers.</p>
+                        <span class="note-link">Read Briefing &rarr;</span>
+                    </div>
+
+                    <!-- Note 4 -->
+                    <div class="note-card" data-note-idx="3">
+                        <div class="note-meta">Feb 18, 2026 • Geopolitical Logistics</div>
+                        <h3>Resilient Last-Mile Delivery Networks</h3>
+                        <p class="note-excerpt">Mapping Vehicle Routing Problem (VRP) constraints to Mixed-Integer Linear Programming solvers. Bridging the gap between operations research mathematics and QGIS spatial vectors.</p>
+                        <span class="note-link">Read Briefing &rarr;</span>
+                    </div>
+                </div>
+
+                <!-- Chain Reaction Newsletter Callout Banner -->
+                <div class="newsletter-banner">
+                    <div class="newsletter-logo-box">
+                        <img src="assets/logo_chain_reaction_light.png" alt="Chain Reaction Logo" class="newsletter-logo">
+                    </div>
+                    <div class="newsletter-content">
+                        <span class="newsletter-eyebrow">LinkedIn Publication</span>
+                        <h3>Chain Reaction Weekly</h3>
+                        <p>I run <strong>Chain Reaction</strong>, a weekly supply chain newsletter published on LinkedIn. Every edition takes one global event and traces exactly how it ripples through trade routes, freight markets, and industries, with a sharp eye on what it means for India. Built for students and early-career professionals who want to understand the world, not just work in it.</p>
+                        <a href="https://www.linkedin.com/build-relation/newsletter-follow?entityUrn=7469384971577737216" target="_blank" rel="noopener" class="btn btn-primary newsletter-btn">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px; display: inline-block; vertical-align: middle;"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                            Subscribe on LinkedIn
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ==========================================
+             7. PHOTOGRAPHY SECTION
+             ========================================== -->
+        <section id="photography" class="section-padding">
+            <div class="container">
+                <div class="grid-editorial" style="margin-bottom: 60px;">
+                    <div class="section-label">
+                        <div class="eyebrow">Creative</div>
+                        <h2>Photography.</h2>
+                    </div>
+                    <div class="editorial-text">
+                        <p>A minimal display capturing architectural geometries, structural frameworks, and patterns of human cooperation. Serving as the Event Photographer for the NIT Calicut Placement Cell.</p>
+                    </div>
+                </div>
+
+                <div class="photography-wrapper">
+                    <div class="photography-gallery">
+                        <div class="photo-container card-tilt">
+                            <img src="assets/photo_lamps.jpg" alt="Lamps Composition" class="photo-img">
+                            <div class="photo-caption">Lamps Composition // Light & Pattern</div>
+                        </div>
+                        
+                        <!-- Middle Interactive Aperture Link -->
+                        <a href="https://www.instagram.com/_framescapt?igsh=MWtjejUzZnlkZm54cQ==" target="_blank" rel="noopener" class="gallery-aperture" aria-label="View Photography Portfolio">
+                            <div class="gallery-aperture-inner">
+                                <svg class="gallery-aperture-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10" class="aperture-rim"></circle>
+                                    <line x1="14.31" y1="8" x2="20.05" y2="17.94" class="aperture-blade"></line>
+                                    <line x1="9.69" y1="8" x2="21.17" y2="8" class="aperture-blade"></line>
+                                    <line x1="7.38" y1="12" x2="13.12" y2="2.06" class="aperture-blade"></line>
+                                    <line x1="9.69" y1="16" x2="3.95" y2="6.06" class="aperture-blade"></line>
+                                    <line x1="14.31" y1="16" x2="2.83" y2="16" class="aperture-blade"></line>
+                                    <line x1="16.62" y1="12" x2="10.88" y2="21.94" class="aperture-blade"></line>
+                                </svg>
+                                <span class="aperture-tip">VIEW PORTFOLIO</span>
+                            </div>
+                        </a>
+                        
+                        <div class="photo-container card-tilt">
+                            <img src="assets/photo_building.jpg" alt="Building Architecture" class="photo-img">
+                            <div class="photo-caption">Zig-Zag Balconies // Architectural Geometry</div>
+                        </div>
+                    </div>
+                    <div class="photography-cta-box">
+                        <p>Viewing coordinates, textures, and patterns of movement. I compile visual compositions across specialized platforms.</p>
+                        <div class="photography-ctas">
+                            <a href="https://www.instagram.com/_framescapt?igsh=MWtjejUzZnlkZm54cQ==" target="_blank" rel="noopener" class="btn btn-primary">
+                                Photography Portfolio
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-left: 6px; display: inline-block; vertical-align: middle;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             8. RESUME SECTION (INTERACTIVE CV)
+             ========================================== -->
+        <section id="resume" class="section-padding">
+            <div class="container">
+                <div class="grid-editorial" style="margin-bottom: 60px;">
+                    <div class="section-label">
+                        <div class="eyebrow">Credentials</div>
+                        <h2>Curriculum Vitae.</h2>
+                    </div>
+                    <div class="editorial-text">
+                        <p>An interactive digital summary of my credentials, education parameters, certifications, and operational skills.</p>
+                    </div>
+                </div>
+
+                <div class="cv-layout">
+                    <div class="cv-main">
+                        <div class="cv-header-block">
+                            <div class="cv-name-title">
+                                <h3>Rushikesh Govindrao Wadje</h3>
+                                <p class="cv-subtitle">Mechanical Engineering Undergraduate • NIT Calicut</p>
+                            </div>
+                            <div class="cv-download-zone">
+                                <a href="assets/resume.pdf" download="Rushikesh_Wadje_Resume.pdf" class="btn btn-primary">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="margin-right: 8px; display: inline-block; vertical-align: middle;"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                    Download Resume PDF
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="cv-body-section">
+                            <h4>Education</h4>
+                            <div class="cv-education-item">
+                                <div class="cv-edu-header">
+                                    <span class="edu-degree">B.Tech. in Mechanical Engineering</span>
+                                    <span class="edu-date">2023 – 2027 (Expected)</span>
+                                </div>
+                                <div class="edu-inst">National Institute of Technology Calicut</div>
+                                <p class="edu-details">Key Coursework: Operations & Process Management, Supply Chain Management, Humanitarian Logistics, Product Design.</p>
+                            </div>
+                            <div class="cv-education-item">
+                                <div class="cv-edu-header">
+                                    <span class="edu-degree">Higher Secondary Certificate (HSC)</span>
+                                    <span class="edu-date">2023 Completed</span>
+                                </div>
+                            </div>
+                            <div class="cv-education-item">
+                                <div class="cv-edu-header">
+                                    <span class="edu-degree">Secondary School Certificate (SSC)</span>
+                                    <span class="edu-date">2021 Completed</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="cv-body-section">
+                            <h4>Certifications</h4>
+                            <div class="cv-certifications-grid">
+                                <div class="cv-cert-card">
+                                    <h5>Completed</h5>
+                                    <ul class="cv-cert-list">
+                                        <li>Supply Chain Management (Great Learning)</li>
+                                        <li>Aspire Leaders Program (Harvard Aspire Institute)</li>
+                                        <li>Operations & Process Management (NITC)</li>
+                                        <li>Humanitarian Logistics (NITC)</li>
+                                        <li>Generative AI Mastermind (Outskill)</li>
+                                    </ul>
+                                </div>
+                                <div class="cv-cert-card">
+                                    <h5>In Progress</h5>
+                                    <ul class="cv-cert-list">
+                                        <li>Google Project Management Professional Certificate</li>
+                                        <li>Supply Chain & Operations Management Specialization</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cv-sidebar">
+                        <div class="cv-sidebar-block">
+                            <h4>Tools & Systems</h4>
+                            <div class="cv-tags-group">
+                                <span class="cv-tag">Excel Analytics</span>
+                                <span class="cv-tag">AnyLogic Simulation</span>
+                                <span class="cv-tag">QGIS Routing</span>
+                                <span class="cv-tag">PowerPoint</span>
+                                <span class="cv-tag">Google Sheets</span>
+                                <span class="cv-tag">Google Workspace</span>
+                                <span class="cv-tag">WMS Concepts</span>
+                                <span class="cv-tag">SOP Writing</span>
+                            </div>
+                        </div>
+
+                        <div class="cv-sidebar-block">
+                            <h4>Extracurricular Logs</h4>
+                            <ul class="cv-sidebar-list">
+                                <li><strong>MUN Delegate:</strong> France (UNHRC), Russia (Two Editions)</li>
+                                <li><strong>Inter-NIT Yoga:</strong> Calicut Representative</li>
+                                <li><strong>ICARUS Workshop:</strong> RC Plane Design</li>
+                                <li><strong>Placement Cell:</strong> Event Photographer & Digital Media team</li>
+                            </ul>
+                        </div>
+
+                        <div class="cv-sidebar-block">
+                            <h4>Languages</h4>
+                            <table class="cv-lang-table">
+                                <tr><td><strong>English</strong></td><td>Professional Fluent</td></tr>
+                                <tr><td><strong>Hindi</strong></td><td>Professional Fluent</td></tr>
+                                <tr><td><strong>Marathi</strong></td><td>Native Speaker</td></tr>
+                                <tr><td><strong>Malayalam</strong></td><td>Basic Conversational</td></tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==========================================
+             9. CONTACT SECTION
+             ========================================== -->
+        <section id="contact" class="section-padding">
+            <div class="container">
+                <div class="grid-editorial" style="margin-bottom: 80px;">
+                    <div class="section-label">
+                        <div class="eyebrow">Transmission</div>
+                        <h2>Initiate Connection.</h2>
+                    </div>
+                    <div class="editorial-text">
+                        <p>Reach out to collaborate on supply chain modeling, operations analytics, discrete-event simulation, or structured systems analysis. Secure coordination channels remain open.</p>
+                    </div>
+                </div>
+
+                <div class="contact-layout">
+                    <div class="contact-info">
+                        <h3>Secure Channels</h3>
+                        <ul class="contact-channels-list">
+                            <li>
+                                <span class="contact-lbl">Email Coordinate</span>
+                                <a href="mailto:rushikeshwadje27@gmail.com" class="contact-val email-link">rushikeshwadje27@gmail.com</a>
+                            </li>
+                            <li>
+                                <span class="contact-lbl">Professional Interface</span>
+                                <a href="https://www.linkedin.com/in/rushikesh-wadje-5a3748217" target="_blank" rel="noopener" class="contact-val link-arrow">linkedin.com/in/rushikesh-wadje</a>
+                            </li>
+                            <li>
+                                <span class="contact-lbl">Location Coordinates</span>
+                                <span class="contact-val">NIT Calicut Campus, Kozhikode, Kerala, India</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form-name">Name</label>
+                                    <input type="text" id="form-name" placeholder="Your name" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form-email">Email</label>
+                                    <input type="email" id="form-email" placeholder="yourname@domain.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                    <input type="text" id="form-subject" placeholder="Topic of coordination" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-message">Transmission Details</label>
+                                <textarea id="form-message" rows="5" placeholder="Operational objectives, parameters, or details..." required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="form-submit-btn">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer Telemetry -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                &copy; <span id="current-year">2026</span> Rushikesh Wadje. Systems thinking meets execution.
+            </div>
+            
+            <div class="footer-socials">
+                <!-- LinkedIn -->
+                <a href="https://www.linkedin.com/in/rushikesh-wadje-5a3748217" target="_blank" rel="noopener" class="motion-social-btn">
+                    <div class="motion-icon-container">
+                        <svg class="motion-ring" viewBox="0 0 36 36">
+                            <circle class="ring-bg" cx="18" cy="18" r="16" fill="none"></circle>
+                            <circle class="ring-active" cx="18" cy="18" r="16" fill="none"></circle>
+                        </svg>
+                        <div class="social-icon-inner">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </div>
+                    </div>
+                    <span class="social-label">LinkedIn</span>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/_rushiwadje?igsh=OW1ueDY1aXN3bWZ5" target="_blank" rel="noopener" class="motion-social-btn">
+                    <div class="motion-icon-container">
+                        <svg class="motion-ring" viewBox="0 0 36 36">
+                            <circle class="ring-bg" cx="18" cy="18" r="16" fill="none"></circle>
+                            <circle class="ring-active" cx="18" cy="18" r="16" fill="none"></circle>
+                        </svg>
+                        <div class="social-icon-inner">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <span class="social-label">Instagram</span>
+                </a>
+
+                <!-- Photography Instagram -->
+                <a href="https://www.instagram.com/_framescapt?igsh=MWtjejUzZnlkZm54cQ==" target="_blank" rel="noopener" class="motion-social-btn">
+                    <div class="motion-icon-container">
+                        <svg class="motion-ring" viewBox="0 0 36 36">
+                            <circle class="ring-bg" cx="18" cy="18" r="16" fill="none"></circle>
+                            <circle class="ring-active" cx="18" cy="18" r="16" fill="none"></circle>
+                        </svg>
+                        <div class="social-icon-inner">
+                            <svg class="social-icon aperture-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="14.31" y1="8" x2="20.05" y2="17.94" class="aperture-blade"></line>
+                                <line x1="9.69" y1="8" x2="21.17" y2="8" class="aperture-blade"></line>
+                                <line x1="7.38" y1="12" x2="13.12" y2="2.06" class="aperture-blade"></line>
+                                <line x1="9.69" y1="16" x2="3.95" y2="6.06" class="aperture-blade"></line>
+                                <line x1="14.31" y1="16" x2="2.83" y2="16" class="aperture-blade"></line>
+                                <line x1="16.62" y1="12" x2="10.88" y2="21.94" class="aperture-blade"></line>
+                            </svg>
+                        </div>
+                    </div>
+                    <span class="social-label">Photography</span>
+                </a>
+
+                <!-- Email -->
+                <a href="mailto:rushikeshwadje27@gmail.com" class="motion-social-btn">
+                    <div class="motion-icon-container">
+                        <svg class="motion-ring" viewBox="0 0 36 36">
+                            <circle class="ring-bg" cx="18" cy="18" r="16" fill="none"></circle>
+                            <circle class="ring-active" cx="18" cy="18" r="16" fill="none"></circle>
+                        </svg>
+                        <div class="social-icon-inner">
+                            <svg class="social-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                                <polyline points="22,6 12,13 2,6"></polyline>
+                            </svg>
+                        </div>
+                    </div>
+                    <span class="social-label">Email</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Case Study Centered Modal (Overlay) -->
+    <div class="drawer" id="case-study-drawer">
+        <div class="drawer-overlay" id="case-drawer-overlay"></div>
+        <div class="drawer-content">
+            <button class="drawer-close-btn" id="close-case-drawer" aria-label="Close panel">&times;</button>
+            <div class="drawer-scroll">
+                <div class="case-header">
+                    <span class="eyebrow" id="case-detail-eyebrow">Case Study</span>
+                    <h2 class="case-title" id="case-detail-title">Project Title</h2>
+                    <p class="case-summary" id="case-detail-summary">Summary</p>
+                    
+                    <div class="case-specs-grid">
+                        <div class="case-spec-box">
+                            <span class="spec-lbl">Methodology</span>
+                            <span class="spec-val" id="case-detail-method">-</span>
+                        </div>
+                        <div class="case-spec-box">
+                            <span class="spec-lbl">Tools</span>
+                            <span class="spec-val" id="case-detail-tools">-</span>
+                        </div>
+                        <div class="case-spec-box">
+                            <span class="spec-lbl">Timeline</span>
+                            <span class="spec-val" id="case-detail-timeline">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-body">
+                    <div class="case-tabs-nav">
+                        <button class="case-tab-btn active" data-tab="context">Context</button>
+                        <button class="case-tab-btn" data-tab="problem">Problem</button>
+                        <button class="case-tab-btn" data-tab="approach">Approach</button>
+                        <button class="case-tab-btn" data-tab="execution">Execution</button>
+                        <button class="case-tab-btn" data-tab="results">Results</button>
+                    </div>
+
+                    <div class="case-tab-contents">
+                        <div class="case-tab-pane active" id="pane-context"></div>
+                        <div class="case-tab-pane" id="pane-problem"></div>
+                        <div class="case-tab-pane" id="pane-approach"></div>
+                        <div class="case-tab-pane" id="pane-execution"></div>
+                        <div class="case-tab-pane" id="pane-results"></div>
+                    </div>
+                </div>
+                <div class="drawer-actions" style="margin-top: 40px; border-top: 1px solid var(--border-color); padding-top: 24px; display: flex; justify-content: flex-end;">
+                    <button class="btn btn-secondary" id="bottom-close-case-drawer">Close Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Field Note Centered Modal (Overlay) -->
+    <div class="drawer" id="note-drawer">
+        <div class="drawer-overlay" id="note-drawer-overlay"></div>
+        <div class="drawer-content">
+            <button class="drawer-close-btn" id="close-note-drawer" aria-label="Close panel">&times;</button>
+            <div class="drawer-scroll">
+                <div class="note-detail-header">
+                    <span class="note-meta" id="note-detail-meta">Date • Category</span>
+                    <h2 class="note-detail-title" id="note-detail-title">Note Title</h2>
+                </div>
+                <div class="note-detail-body" id="note-detail-body">
+                    <!-- Dynamic content goes here -->
+                </div>
+                <div class="drawer-actions" style="margin-top: 40px; border-top: 1px solid var(--border-color); padding-top: 24px; display: flex; justify-content: flex-end;">
+                    <button class="btn btn-secondary" id="bottom-close-note-drawer">Close Briefing</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js?v=6"></script>
+</body>
+</html>
