@@ -58,6 +58,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Continuous scroll listener for smooth active nav highlighting
     function updateActiveLink() {
+        if (!sections || !sections.length) return;
+        
         let activeSection = sections[0];
         let closestDist = Infinity;
 
@@ -78,19 +80,26 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (activeSection) {
             const activeId = activeSection.getAttribute('id');
-            navLinks.forEach(link => {
-                const href = link.getAttribute('href').substring(1);
-                if (href === activeId) {
-                    link.classList.add('active');
-                } else {
-                    link.classList.remove('active');
-                }
-            });
+            if (activeId) {
+                navLinks.forEach(link => {
+                    const hrefAttr = link.getAttribute('href');
+                    if (hrefAttr && hrefAttr.startsWith('#')) {
+                        const href = hrefAttr.substring(1);
+                        if (href === activeId) {
+                            link.classList.add('active');
+                        } else {
+                            link.classList.remove('active');
+                        }
+                    }
+                });
+            }
         }
     }
 
     window.addEventListener('scroll', updateActiveLink);
+    window.addEventListener('load', updateActiveLink); // Run on complete page load
     updateActiveLink(); // Run initially to set active state
+
 
 
 
