@@ -692,7 +692,7 @@ document.addEventListener('DOMContentLoaded', () => {
     /* ==========================================================================
        7. INTERACTIVE 3D MOUSE-TILT CARD ANIMATION
        ========================================================================== */
-    const tiltElements = document.querySelectorAll('.project-card, .timeline-content, .photo-container');
+    const tiltElements = document.querySelectorAll('.project-card, .ai-card, .timeline-content, .photo-container');
     
     tiltElements.forEach(el => {
         el.addEventListener('mousemove', e => {

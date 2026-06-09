@@ -963,6 +963,123 @@ strong {
 }
 
 /* ==========================================================================
+   GEN AI & AUTOMATION SECTION
+   ========================================================================== */
+.ai-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+    margin-bottom: 48px;
+    margin-top: 40px;
+}
+
+.ai-card {
+    background-color: var(--bg-color);
+    border: 1px solid var(--border-color);
+    padding: 32px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.15s ease-out, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ai-card:hover {
+    border-color: var(--ind-blue);
+    box-shadow: 0 12px 24px rgba(74, 105, 132, 0.03);
+}
+
+.ai-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.ai-badge {
+    font-family: var(--font-head);
+    font-size: 10px;
+    font-weight: 600;
+    color: var(--ind-blue);
+    background-color: var(--ind-blue-light);
+    padding: 4px 8px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.ai-type {
+    font-family: var(--font-head);
+    font-size: 10px;
+    font-weight: 500;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.ai-card h3 {
+    font-size: 20px;
+    margin-bottom: 12px;
+    line-height: 1.25;
+}
+
+.ai-desc {
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--secondary-color);
+    margin-bottom: 24px;
+    font-weight: 300;
+}
+
+.ai-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: auto;
+}
+
+.ai-tag {
+    font-family: var(--font-head);
+    font-size: 10px;
+    color: var(--secondary-color);
+    background-color: var(--ind-blue-pale);
+    padding: 4px 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 2px;
+}
+
+/* AI Media Callout */
+.ai-media-callout {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--ind-blue-light);
+    border-left: 2px solid var(--ind-blue);
+    padding: 20px 24px;
+    border-radius: 0 4px 4px 0;
+}
+
+.ai-media-icon {
+    color: var(--ind-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ai-media-text {
+    font-size: 14px;
+    line-height: 1.5;
+    color: var(--primary-color);
+}
+
+@media (max-width: 992px) {
+    .ai-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+}
+
+/* ==========================================================================
    CAPABILITIES MAP INTERACTION
    ========================================================================== */
 .capabilities-container {
