@@ -56,30 +56,43 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
-    // Observer options for active nav indicators
-    const navOptions = {
-        threshold: 0.35,
-        rootMargin: '-72px 0px -40% 0px'
-    };
+    // Continuous scroll listener for smooth active nav highlighting
+    function updateActiveLink() {
+        let activeSection = sections[0];
+        let closestDist = Infinity;
 
-    const navObserver = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const activeId = entry.target.getAttribute('id');
-                navLinks.forEach(link => {
-                    link.classList.remove('active');
-                    const href = link.getAttribute('href').substring(1);
-                    if (href === activeId) {
-                        link.classList.add('active');
-                    }
-                });
+        sections.forEach(section => {
+            const rect = section.getBoundingClientRect();
+            const dist = Math.abs(rect.top - 72);
+            
+            // Check if section is currently spanning across the active region (header threshold)
+            if (rect.top <= 80 && rect.bottom > 80) {
+                activeSection = section;
+                closestDist = -Infinity; // Highest priority candidate
+            } else if (rect.top > 80 && dist < closestDist) {
+                // If section is below the header, find the closest one to it
+                closestDist = dist;
+                activeSection = section;
             }
         });
-    }, navOptions);
 
-    sections.forEach(section => {
-        navObserver.observe(section);
-    });
+        if (activeSection) {
+            const activeId = activeSection.getAttribute('id');
+            navLinks.forEach(link => {
+                const href = link.getAttribute('href').substring(1);
+                if (href === activeId) {
+                    link.classList.add('active');
+                } else {
+                    link.classList.remove('active');
+                }
+            });
+        }
+    }
+
+    window.addEventListener('scroll', updateActiveLink);
+    updateActiveLink(); // Run initially to set active state
+
+
 
     // Mobile nav toggle
     if (navToggle && navMenu) {
