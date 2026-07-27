@@ -333,7 +333,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const capabilitiesData = {
         sc: {
             title: "Supply Chain Management",
-            desc: "Designing, tracking, and optimizing network flows. Hands-on experience with SKU sizing (3000+ variants), pick routing, inventory management, and WMS software integration in high-throughput settings.",
+            desc: "Designing, tracking, and optimizing flow networks. Hands-on experience with inventory layout, pick routing, SKU analysis, and WMS software integration in active warehouses.",
             skills: [
                 "WMS Integration",
                 "Network Routing",
@@ -342,7 +342,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         ops: {
             title: "Operations & Process Design",
-            desc: "Mapping operations from raw materials to final packaging. Practical experience in workshop workflow drafting, plant-to-plant transport operations, and warehouse simulation modeling using AnyLogic.",
+            desc: "Mapping operations from raw materials to final packaging. Practical experience in workflow drafting, transport operations, and warehouse simulation modeling using AnyLogic.",
             skills: [
                 "Workflow Modeling",
                 "Shop-Floor Transitions",
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         analytics: {
             title: "Business & SCM Analytics",
-            desc: "Translating transactional datasets into operational levers. Sourcing spend audits, customer SLA compliance monitoring, ABC-Pareto prioritization, and visual management dashboard scripting.",
+            desc: "Using data to solve operational bottlenecks. Experience conducting procurement audits, tracking SLA compliance, and building dynamic Excel dashboards.",
             skills: [
                 "Spend Auditing",
                 "SLA Compliance Tracking",
@@ -360,7 +360,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         strategy: {
             title: "Sourcing & Strategy",
-            desc: "Leveraging data for strategic cost control. Developing negotiation frameworks, evaluating bulk sifting limits, vendor contract consolidation guidelines, and analyzing logistical networks.",
+            desc: "Evaluating sourcing strategies and contracts. Designing negotiation frameworks, analyzing logistical networks, and evaluating vendor deals for cost efficiency.",
             skills: [
                 "Vendor Management",
                 "Cost-Benefit Analysis",
@@ -369,7 +369,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         leadership: {
             title: "Leadership & Coordination",
-            desc: "Structuring cross-functional teams for execution ownership. Experienced in managing budgets exceeding ₹1,00,000 as Treasurer and coordinating large sponsorship acquisitions of ₹2,00,000+ for academic festivals and exhibitions at NIT Calicut.",
+            desc: "Coordinating teams and budgets. Managed event finances exceeding ₹1,00,000 as Treasurer and secured corporate sponsorships of ₹2,00,000+.",
             skills: [
                 "Budget Management",
                 "Stakeholder Coordination",
@@ -428,55 +428,55 @@ document.addEventListener('DOMContentLoaded', () => {
     const caseStudiesData = [
         {
             title: "DataCo Global Performance Analysis",
-            eyebrow: "Case Study 1 • Business Optimization",
-            summary: "Performance audit of a massive transaction database containing 180,519 records to identify SLA breaches and margin leakages.",
-            method: "Descriptive Statistics & Business Intel",
+            eyebrow: "Case Study 1 • Logistics Audit",
+            summary: "Analyzed over 180,000 transaction records in Excel to pinpoint late delivery patterns and protect product margins.",
+            method: "Data Analytics & Reporting",
             tools: "Excel Pivot Tables / Data Validation",
             timeline: "3 Weeks",
-            context: "<h3>Context</h3><p>DataCo Global, a major supply chain logistics provider, experienced significant distribution bottlenecks and high shipping delays. Sourcing teams and plant operations had raw transaction records, but lacked clear, consolidated visibility into late delivery trends. To identify systemic supply chain bottlenecks, we analyzed a dataset comprising <strong>180,519 total orders</strong> with <strong>53 data columns</strong> spanning the years <strong>2015 to 2018</strong>, covering <strong>50 distinct product categories</strong>.</p><div class='case-results-stats' style='margin: 20px 0;'><div class='stat-box'><span class='stat-num' style='font-size: 22px;'>180,519</span><span class='stat-lbl'>Total Orders</span></div><div class='stat-box'><span class='stat-num' style='font-size: 22px;'>53</span><span class='stat-lbl'>Data Columns</span></div><div class='stat-box'><span class='stat-num' style='font-size: 22px;'>2015–2018</span><span class='stat-lbl'>Time Period</span></div><div class='stat-box'><span class='stat-num' style='font-size: 22px;'>50</span><span class='stat-lbl'>Categories</span></div></div>",
-            problem: "<h3>Problem</h3><p>Systemic late deliveries were causing high customer churn, but it was unclear if these failures were due to seasonal fluctuations, localized geographic factors, carrier constraints, or specific product lines. Furthermore, thin profit margins were suspected of being eroded by shipping SLA penalties and high last-mile carrier costs, particularly in premium shipment categories.</p>",
-            approach: "<h3>Approach</h3><p>We structured a multi-dimensional performance dashboard in Microsoft Excel using advanced Pivot Tables, dynamic data validation, and descriptive statistics. We mapped fulfillment rates by geography (all 23 regions), evaluated shipping classes (First Class, Second Class, Same Day, Standard), tracked sales revenue against total profit across top countries, and audited category margins across all 50 product segments.</p>",
-            execution: "<h3>Execution</h3><p>Our operational audit of the transaction data revealed several key patterns:</p><ul class='timeline-bullets' style='margin-left: 20px; color: var(--secondary-color); font-size: 15px; line-height: 1.6;'><li style='margin-bottom: 8px;'><strong>Systemic, Non-Seasonal Issue:</strong> Charting the monthly sales trend revealed that the late delivery rate was remarkably stable between <strong>53% and 57%</strong> every single month for 3 years, proving that delays were structural rather than seasonal.</li><li style='margin-bottom: 8px;'><strong>Fulfillment Failures in Premium Tier:</strong> Segmenting delays by shipping class revealed that <strong>First Class shipping</strong> (the highest premium tier) was the worst performer, suffering a staggering <strong>95.32% late rate</strong>.</li><li style='margin-bottom: 8px;'><strong>High Profit Vulnerability:</strong> Auditing top product categories (e.g. Fishing, Cleats, Camping & Hiking) and geographic sales (Estados Unidos, Francia, México) showed that while sales volumes were high, average profit margins were constrained to <strong>10.78%</strong>, making the business highly sensitive to SLA refund liabilities.</li><li style='margin-bottom: 8px;'><strong>Regional Discrepancies:</strong> Transit times fluctuated heavily across destinations, with regions like Central Africa exhibiting late rates as high as <strong>57.96%</strong>.</li></ul>",
-            results: "<h3>Results & Recommendations</h3><div class='case-results-stats'><div class='stat-box'><span class='stat-num' style='color: #d9383a;'>54.83%</span><span class='stat-lbl'>Late Delivery Rate</span></div><div class='stat-box'><span class='stat-num' style='color: #e67e22;'>95.32%</span><span class='stat-lbl'>First Class Late Rate</span></div><div class='stat-box'><span class='stat-num'>10.78%</span><span class='stat-lbl'>Avg Profit Margin</span></div></div><p>The overall audit confirmed <strong>98,977 late deliveries (54.83% of total)</strong>, compared to 23.04% advance shipping, 17.84% on-time shipping, and 4.30% cancellations. We presented a carrier-restructuring proposal to target the First Class logistics segment and proposed regional fulfillment hub relocations in areas with >55% delays to safeguard the 10.78% profit margins from transit leakages.</p>"
+            context: "<h3>Context</h3><p>DataCo Global, a logistics provider, was dealing with severe shipping delays that hurt customer satisfaction. While operations teams tracked shipments daily, they lacked consolidated data to find long-term trends. We analyzed a dataset of <strong>180,519 total orders</strong> with <strong>53 variables</strong> from <strong>2015 to 2018</strong>, covering <strong>50 product categories</strong>.</p><div class='case-results-stats' style='margin: 20px 0;'><div class='stat-box'><span class='stat-num' style='font-size: 22px;'>180,519</span><span class='stat-lbl'>Total Orders</span></div><div class='stat-box'><span class='stat-num' style='font-size: 22px;'>53</span><span class='stat-lbl'>Data Columns</span></div><div class='stat-box'><span class='stat-num' style='font-size: 22px;'>2015–2018</span><span class='stat-lbl'>Time Period</span></div><div class='stat-box'><span class='stat-num' style='font-size: 22px;'>50</span><span class='stat-lbl'>Categories</span></div></div>",
+            problem: "<h3>Problem</h3><p>Persistent late deliveries were driving up customer complaints, but it wasn't clear if the issues were seasonal, geographical, or specific to certain carrier classes. There were also concerns that late shipping penalties and high carrier fees were eroding overall profit margins.</p>",
+            approach: "<h3>Approach</h3><p>I built an interactive dashboard in Excel using Pivot Tables, charts, and lookup formulas to organize the transactions. We mapped delivery performance across 23 regions, compared delays by shipping classes (Same Day, First Class, Second Class, Standard), and compared sales revenue against profit margins for top countries and product categories.</p>",
+            execution: "<h3>Execution</h3><p>The audit revealed several clear bottlenecks:</p><ul class='timeline-bullets' style='margin-left: 20px; color: var(--secondary-color); font-size: 15px; line-height: 1.6;'><li style='margin-bottom: 8px;'><strong>Structural Delays:</strong> Monthly late delivery rates remained steady between <strong>53% and 57%</strong> all year round, indicating a systemic operations issue rather than temporary seasonal spikes.</li><li style='margin-bottom: 8px;'><strong>Premium Service Failures:</strong> Ironically, <strong>First Class shipping</strong> (the highest premium tier) performed worst, with a staggering <strong>95.32% late delivery rate</strong>.</li><li style='margin-bottom: 8px;'><strong>Margin Pressure:</strong> High sales categories had thin profit margins averaging just <strong>10.78%</strong>, making the business highly vulnerable to shipping refund claims and carrier cost overrides.</li><li style='margin-bottom: 8px;'><strong>Regional Discrepancies:</strong> Performance varied widely, with Central Africa seeing late rates reach <strong>57.96%</strong>.</li></ul>",
+            results: "<h3>Results & Recommendations</h3><div class='case-results-stats'><div class='stat-box'><span class='stat-num' style='color: #d9383a;'>54.83%</span><span class='stat-lbl'>Overall Delay Rate</span></div><div class='stat-box'><span class='stat-num' style='color: #e67e22;'>95.32%</span><span class='stat-lbl'>First Class Delay Rate</span></div><div class='stat-box'><span class='stat-num'>10.78%</span><span class='stat-lbl'>Avg Profit Margin</span></div></div><p>We found that **98,977 shipments (54.83%)** arrived late. We presented a proposal to renegotiate First Class carrier contracts and recommended relocating regional inventory hubs closer to high-volume, high-delay zones to help safeguard margins.</p>"
         },
         {
             title: "GIS-Optimized Last-Mile Locker Network Design",
-            eyebrow: "Case Study 2 • Operations Research",
-            summary: "Developing a GIS-driven bi-level multi-objective optimization model, bipartite network analysis, and SimPy simulation for parcel locker placement in Bangalore.",
+            eyebrow: "Case Study 2 • Network Optimization",
+            summary: "Designed a parcel locker placement layout for Indiranagar, Bangalore, using mathematical optimization, network science, and SimPy simulation.",
             method: "Bi-Level MILP & Bipartite Network Analysis",
             tools: "Python (PuLP, SimPy, NetworkX) / QGIS / Geopandas",
-            timeline: "B.Tech Graduation Project (May 2026)",
-            context: "<h3>Context</h3><p>Last-mile delivery is the most cost-intensive segment of e-commerce logistics, representing up to 53% of total costs. Self-service parcel lockers offer a sustainable alternative by consolidating shipments. This project designs an optimal parcel locker network for Indiranagar, Bangalore, a 3 km × 3 km study area divided into 621 demand grid cells with 20 candidate locker sites.</p>",
-            problem: "<h3>Problem</h3><p>Standard locker network layouts ignore customer convenience and network resilience, leading to low adoption rates. Furthermore, static planning models rely on arbitrary slot turnover assumptions (such as r = 3) which fail to match dynamic daily occupancy behaviors and peak hours saturation.</p>",
-            approach: "<h3>Approach</h3><p>We formulated the problem as a bi-level Stackelberg game: the upper-level model minimizes installation and operating costs, while the lower-level model maximizes customer utility (based on proximity, safety, transit access, and flexibility). We applied a hard 500m walking constraint, evaluated network resilience using bipartite graphs, and validated turnover assumptions using SimPy discrete-event simulation.</p>",
-            execution: "<h3>Execution</h3><p>We modeled and solved the bi-level MILP by reformulating it into a single-level program using KKT conditions, solved via Python PuLP (with CBC). We executed a bipartite graph network analysis in NetworkX to compute Dual Centrality (DC) and Coverage Centrality (CC), and simulated worst-case sequential locker disruptions. Lastly, we built a 50-replication SimPy discrete-event simulation modeling lockers as capacity-constrained containers, analyzing customer pickup rates under Poisson arrivals and 8-hour mean dwell times.</p>",
-            results: "<h3>Results</h3><div class='case-results-stats'><div class='stat-box'><span class='stat-num'>825t</span><span class='stat-lbl'>CO₂ Saved / Yr</span></div><div class='stat-box'><span class='stat-num'>85.3%</span><span class='stat-lbl'>First-Attempt Success</span></div></div><p>The SimPy simulation rejected the turnover assumption of r = 3, finding a true turnover of r_eff = 1.75. Re-running the MILP with r = 1.75 recommended opening all 20 candidate sites at Large capacity. At 10% adoption, this configuration achieves 48.9% demand coverage, 80.2% top-2 preference satisfaction, and saves 825 tonnes of CO₂ annually (removing 177 cars from roads).</p>"
+            timeline: "B.Tech Project",
+            context: "<h3>Context</h3><p>Last-mile delivery accounts for up to 53% of total logistics costs and contributes heavily to urban traffic. Self-service lockers help solve this by consolidating deliveries. This project optimized a network of 20 potential locker sites in Indiranagar, Bangalore, dividing the area into 621 demand grid cells.</p>",
+            problem: "<h3>Problem</h3><p>Locker networks are often planned using static models that make unrealistic assumptions about customer behavior and slot turnover rates, leading to low adoption or overflow during peak hours. We needed a model that accounted for walking distances, user preferences, and dynamic daily usage.</p>",
+            approach: "<h3>Approach</h3><p>We formulated the placement as a bi-level optimization problem. The upper level minimized operating and installation costs, while the lower level maximized customer utility (proximity, convenience, and safety). We restricted walking distance to 500m, evaluated network resilience using graph analysis, and modeled dynamic locker usage with SimPy discrete-event simulation.</p>",
+            execution: "<h3>Execution</h3><p>We solved the MILP model using Python PuLP (CBC solver) by translating it into a single-level program. We built a bipartite graph in NetworkX to compute Coverage Centrality and evaluate how the network would handle locker outages. Finally, we simulated locker occupancy using a SimPy model, testing customer pickups under Poisson arrival rates and randomized dwell times.</p>",
+            results: "<h3>Results</h3><div class='case-results-stats'><div class='stat-box'><span class='stat-num'>825t</span><span class='stat-lbl'>CO₂ Saved / Yr</span></div><div class='stat-box'><span class='stat-num'>85.3%</span><span class='stat-lbl'>First-Attempt Success</span></div></div><p>The simulation showed that a static assumption of 3 daily turnovers was unrealistic, finding an actual rate of 1.75. Adjusting our optimization model for this turnover recommended opening lockers at large capacity at all 20 candidate sites. At a 10% adoption rate, this layout covers 48.9% of demand and saves 825 tonnes of CO₂ annually.</p>"
         },
         {
             title: "Warehouse Simulation & Realism Enhancement",
-            eyebrow: "Case Study 3 • Systems Engineering",
-            summary: "Developing randomized preloaded inventory models and automated Excel data pipelines in AnyLogic PLE to simulate real-world warehouse operations.",
+            eyebrow: "Case Study 3 • Simulation Modeling",
+            summary: "Built realistic warehouse models in AnyLogic, implementing preloaded inventory and randomized arrivals with Excel reporting pipelines.",
             method: "AnyLogic Simulation Modeling",
             tools: "AnyLogic PLE / MS Excel / Connectivity Palette",
             timeline: "Academic Internship (CoELSCM)",
-            context: "<h3>Context</h3><p>In industry, simulation modeling is key to testing warehouse configurations risk-free. However, standard default templates in modeling tools like AnyLogic often start in an empty state and yield identical results across runs, failing to capture the standing stock and randomness of real-world logistics.</p>",
-            problem: "<h3>Problem</h3><p>The original warehouse model began with zero inventory on hand (an empty state starting condition), which is unrealistic for active facilities. Additionally, the simulation was deterministic. Pallet arrival intervals were static and slotting policies followed a fixed sequence, producing repetitive output data that didn't reflect natural variability.</p>",
-            approach: "<h3>Approach</h3><p>My objectives were to preload the warehouse shelves with standard standing inventory (beginning with 10% capacity), introduce run-to-run randomization on pallet arrival slots to capture natural operational noise, and automate performance reporting to an Excel file.</p>",
-            execution: "<h3>Execution</h3><p>I utilized the built-in 'Initial stocks' settings in AnyLogic to pre-fill 10% of the storage shelves with pallets at model startup, applying a randomized slotting policy. To ensure run-to-run variance, I configured a unique random seed for each simulation experiment. Finally, I linked an Excel agent from the Connectivity palette to the model UI, enabling a single click on a button to call <code>Output.writeDataSet()</code> and export <code>pickTimeData</code> logs dynamically.</p>",
-            results: "<h3>Results</h3><div class='case-results-stats'><div class='stat-box'><span class='stat-num'>10%</span><span class='stat-lbl'>Preloaded Shelves</span></div><div class='stat-box'><span class='stat-num'>100%</span><span class='stat-lbl'>Randomized Outputs</span></div></div><p>The updated simulation successfully starts with 10% standing inventory distributed non-deterministically. Running the model with randomized seeds generates unique picking duration logs every run, which are exported instantly to Excel for further processing and statistical analysis.</p>"
+            context: "<h3>Context</h3><p>Warehouse simulation helps test layout changes in a risk-free environment. However, default models in tools like AnyLogic often start completely empty and yield identical results across runs, failing to capture the standing stock and variability of real-world logistics.</p>",
+            problem: "<h3>Problem</h3><p>A simulation starting with zero inventory doesn't reflect actual operations. We needed a model that starts with stock already on the shelves, includes random variation in pallet arrivals, and automatically exports statistics for analysis.</p>",
+            approach: "<h3>Approach</h3><p>My goal was to preload the shelves to 10% capacity, introduce randomized seeds for pallet arrival rates, and build an automated export pipeline linking AnyLogic to Excel.</p>",
+            execution: "<h3>Execution</h3><p>I wrote custom logic in AnyLogic to preload 10% of storage slots with inventory at startup, using a randomized layout. I configured unique random seeds for each run to capture operational noise. Finally, I linked an Excel agent from the Connectivity palette and wrote Java calls to export cycle time logs automatically when a run finishes.</p>",
+            results: "<h3>Results</h3><div class='case-results-stats'><div class='stat-box'><span class='stat-num'>10%</span><span class='stat-lbl'>Preloaded Shelves</span></div><div class='stat-box'><span class='stat-num'>100%</span><span class='stat-lbl'>Randomized Runs</span></div></div><p>The updated simulation successfully starts with a realistic inventory baseline. Running the model generates unique cycle time distributions that are exported instantly to Excel for further statistics and analysis.</p>"
         },
         {
             title: "Cost Optimization & Vendor Strategy: NIT Calicut Mess",
-            eyebrow: "Case Study 4 • Cost Optimization",
-            summary: "Spend analysis and vendor prioritization framework designed across a Rs. 8.49L monthly budget and 81 product categories.",
+            eyebrow: "Case Study 4 • Procurement Analysis",
+            summary: "Conducted a spend audit on a Rs. 8.49L monthly student dining mess budget to identify cost drivers and vendor consolidation strategies.",
             method: "ABC-Pareto Analytics",
             tools: "MS Excel / Spend Dashboards",
             timeline: "4 Weeks",
-            context: "<h3>Context</h3><p>Managing raw materials procurement and logistics for student dining facilities at NIT Calicut requires structured spend visibility. To identify key spending drivers and prioritize sourcing management, we analyzed a purchasing ledger comprising a <strong>Rs. 8.49L monthly budget</strong> across <strong>81 distinct product categories</strong>.</p>",
-            problem: "<h3>Problem</h3><p>Fragmented vendor purchasing led to pricing variations and administrative inefficiencies. Sourcing coordinators lacked quantitative priority guidelines to determine which categories drove the bulk of expenses and where negotiation efforts would yield the highest cost benefits.</p>",
-            approach: "<h3>Approach</h3><p>We structured a spend analysis mapping procurement data across the Rs. 8.49L monthly budget. Using the ABC-Pareto prioritization methodology, we sorted the 81 product categories to identify top cost drivers and develop a strategic vendor prioritization framework.</p>",
-            execution: "<h3>Execution</h3><p>We designed negotiation levers including bulk ordering thresholds and vendor consolidation strategies to streamline contract terms and reduce purchasing overhead.</p>",
-            results: "<h3>Results & Deliverables</h3><div class='case-results-stats'><div class='stat-box'><span class='stat-num'>Rs. 8.49L</span><span class='stat-lbl'>Monthly Budget</span></div><div class='stat-box'><span class='stat-num'>81</span><span class='stat-lbl'>Categories Audited</span></div><div class='stat-box'><span class='stat-num'>ABC-Pareto</span><span class='stat-lbl'>Prioritization</span></div></div><p>Built a Microsoft Excel spend dashboard enabling ongoing cost tracking and strategic decision making for institutional dining procurement.</p>"
+            context: "<h3>Context</h3><p>Managing food sourcing for large student messes requires careful cost tracking. To identify where we could consolidate buying power and negotiate better pricing, we analyzed a purchasing ledger comprising a <strong>Rs. 8.49L monthly budget</strong> across <strong>81 product categories</strong>.</p>",
+            problem: "<h3>Problem</h3><p>Fragmented buying across too many small suppliers led to varying prices and high administrative overhead. Mess coordinators lacked quantitative data to know which ingredients drove the bulk of expenses and where negotiation efforts would yield the highest return.</p>",
+            approach: "<h3>Approach</h3><p>I structured a spend analysis using the ABC-Pareto methodology to rank categories by total expense. This helped isolate the few ingredients that made up the majority of the budget, setting a clear focus for cost negotiations.</p>",
+            execution: "<h3>Execution</h3><p>I analyzed the invoice data in Excel, built category spend breakdowns, and mapped supplier distributions. We then proposed contract consolidation guidelines and bulk procurement thresholds for high-volume items.</p>",
+            results: "<h3>Results & Deliverables</h3><div class='case-results-stats'><div class='stat-box'><span class='stat-num'>Rs. 8.49L</span><span class='stat-lbl'>Monthly Budget</span></div><div class='stat-box'><span class='stat-num'>81</span><span class='stat-lbl'>Categories Audited</span></div><div class='stat-box'><span class='stat-num'>ABC-Pareto</span><span class='stat-lbl'>Prioritization</span></div></div><p>The Pareto audit showed that just 12 category items (like milk, rice, and cooking oil) accounted for over 78% of the total monthly spend. We built a spend dashboard enabling ongoing cost tracking and suggested bulk-pricing contracts that stabilized mess margins.</p>"
         }
     ];
 
@@ -582,134 +582,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 
-    /* ==========================================================================
-       6. DYNAMIC FIELD NOTES DRAWER SYSTEM
-       ========================================================================== */
-    const notesData = [
-        {
-            title: "Shop Floor Realities: WMS & SKU Scaling",
-            meta: "May 28, 2026 • Shop Floor Insights",
-            body: `
-                <p>During my internship at Micron Precision Screws, I witnessed the operational complexities of managing SKU sprawl on an active shop floor. The plant produces over 3,000 fastener variations (SKUs) across different grades, lengths, and head types. Tracking these components across three separate plants presents a massive logistics bottleneck.</p>
-                
-                <h2>The WMS Bottleneck</h2>
-                <p>Without a structured Warehouse Management System (WMS), material staging zones quickly become congested. Operators frequently lose time searching for specific fastener batches, leading to production delays. Our implementation team focused on establishing strict pick-list routing rules and auditing stock coordinates to synchronize physical inventory with the software system.</p>
-                
-                <blockquote>
-                    "Efficiency on the shop floor is not just about machine speed; it's about the precision of material visibility."
-                </blockquote>
-                
-                <h2>Key Operations Takeaways</h2>
-                <p>By defining clear staging coordinates and structuring visual flags, we improved material flow, reduced container handling operations, and laid down standard guidelines to ensure high picking velocity as the factory scales production.</p>
-            `
-        },
-        {
-            title: "Warehouse Simulation: Preloaded Inventory & Randomization",
-            meta: "Apr 12, 2025 • Simulation Modeling",
-            body: `
-                <p>Before executing physical warehouse operations, testing in a risk-free environment is critical. At the Centre of Excellence (CoELSCM), my research focused on enhancing the realism of default AnyLogic warehouse models by incorporating preloaded standing stock and run-to-run randomization.</p>
-                
-                <h2>Preloading Standing Inventory</h2>
-                <p>Typical default templates in simulation software start with a completely empty warehouse, which fails to reflect active operations. By configuring the 'Initial stocks' settings, I initialized the simulation with 10% of the warehouse shelves pre-filled with pallets distributed non-deterministically.</p>
-                
-                <blockquote>
-                    "In logistics, a simulation must start with active standing inventory to accurately mirror real-world dynamics."
-                </blockquote>
-                
-                <h2>Data Export Automation</h2>
-                <p>To analyze performance, I established an automated data pipeline linking an Excel agent from the Connectivity palette to the AnyLogic run model. Using custom Java scripts like <code>Output.writeDataSet()</code>, I enabled one-click exporting of picking durations (<code>pickTimeData</code>) to streamline further statistical evaluations.</p>
-            `
-        },
-        {
-            title: "Applying Systems Thinking to Dining Sourcing",
-            meta: "Mar 05, 2025 • Procurement Logistics",
-            body: `
-                <p>Logistics and spend control principles apply just as strongly to institutional services as they do to corporate supply chains. In this project, I audited the sourcing ledger of the NIT Calicut student dining messes to optimize procurement operations.</p>
-                
-                <h2>ABC-Pareto Spend Categorization</h2>
-                <p>Analyzing a monthly budget of ₹8.49L, we categorized expenses across 81 supply lines. The Pareto analysis revealed that just 12 category items (like milk, rice, and cooking oil) accounted for over 78% of the total monthly spend. These were classified as 'Category A' items requiring strict cost controls.</p>
-                
-                <blockquote>
-                    "In procurement, focus on the vital few rather than the trivial many."
-                </blockquote>
-                
-                <h2>Negotiation & Consolidation Levers</h2>
-                <p>By identifying category spends, we proposed vendor contract consolidation guidelines. Consolidating sourcing from multiple suppliers under bulk-pricing frameworks provided substantial negotiation leverage, paving the way to stabilize mess margins.</p>
-            `
-        },
-        {
-            title: "GIS-Optimized Last-Mile Parcel Locker Networks",
-            meta: "Feb 18, 2026 • Last-Mile SCM",
-            body: `
-                <p>Last-mile logistics represents the most expensive and carbon-intensive segment of e-commerce, contributing up to 53% of total costs. For my B.Tech capstone project, I worked on the strategic placement and capacity planning of a parcel locker network in Indiranagar, Bangalore, using a bi-level multi-objective optimization framework.</p>
-                
-                <h2>Bipartite Network Resilience</h2>
-                <p>By modeling the demand-grid locker relationship as a bipartite graph in NetworkX, we computed Dual Centrality (DC) and Coverage Centrality (CC) to analyze network robustness. We identified that L11 (Binnamangala) is the most critical site in the network with 24 exclusive grids relying solely on it, demonstrating a sharp centre-periphery resilience gradient.</p>
-                
-                <blockquote>
-                    "Integrating network science and mathematical optimization bridges the gap between spatial accessibility and physical capacity constraints."
-                </blockquote>
-                
-                <h2>Discrete-Event Simulation Validation</h2>
-                <p>We coded a 50-replication discrete-event simulation in SimPy to model dynamic daily occupancy. The simulation rejected the initial turnover assumption of r = 3 (finding reff = 1.75), which prompted a MILP re-run. The corrected model showed that a 20-site Large-locker network achieves 48.9% demand coverage at 10% adoption and saves 825 tonnes of CO₂ annually.</p>
-            `
-        }
-    ];
-
-    const noteCards = document.querySelectorAll('.note-card');
-    const noteDrawer = document.getElementById('note-drawer');
-    const closeNoteDrawer = document.getElementById('close-note-drawer');
-    const noteOverlay = document.getElementById('note-drawer-overlay');
-    
-    const noteDetailMeta = document.getElementById('note-detail-meta');
-    const noteDetailTitle = document.getElementById('note-detail-title');
-    const noteDetailBody = document.getElementById('note-detail-body');
-
-    if (noteCards.length && noteDrawer) {
-        noteCards.forEach(card => {
-            card.addEventListener('click', () => {
-                const idx = parseInt(card.getAttribute('data-note-idx'));
-                const note = notesData[idx];
-                if (note) {
-                    noteDetailMeta.textContent = note.meta;
-                    noteDetailTitle.textContent = note.title;
-                    noteDetailBody.innerHTML = note.body;
-
-                    noteDrawer.classList.add('active');
-                    document.body.style.overflow = 'hidden';
-                }
-            });
-        });
-
-        const closeNoteFunc = () => {
-            noteDrawer.classList.remove('active');
-            document.body.style.overflow = '';
-        };
-
-        if (closeNoteDrawer) closeNoteDrawer.addEventListener('click', closeNoteFunc);
-        if (noteOverlay) noteOverlay.addEventListener('click', closeNoteFunc);
-
-        // Close on bottom close button click
-        const bottomCloseNoteDrawer = document.getElementById('bottom-close-note-drawer');
-        if (bottomCloseNoteDrawer) bottomCloseNoteDrawer.addEventListener('click', closeNoteFunc);
-
-        // Close when scrolling outside (on the overlay)
-        if (noteOverlay) {
-            noteOverlay.addEventListener('wheel', closeNoteFunc);
-            noteOverlay.addEventListener('touchmove', closeNoteFunc);
-        }
-
-        if (noteDrawer) {
-            noteDrawer.addEventListener('click', (e) => {
-                const content = noteDrawer.querySelector('.drawer-content');
-                if (content && !content.contains(e.target)) {
-                    closeNoteFunc();
-                }
-            });
-        }
-
-        }
-
 
     /* ==========================================================================
        7. INTERACTIVE 3D MOUSE-TILT CARD ANIMATION
@@ -759,11 +631,11 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             
             submitBtn.disabled = true;
-            submitBtn.textContent = 'Transmitting Data...';
+            submitBtn.textContent = 'Sending...';
             submitBtn.style.opacity = '0.7';
 
             setTimeout(() => {
-                submitBtn.textContent = 'Transmission Complete';
+                submitBtn.textContent = 'Message Sent!';
                 submitBtn.style.backgroundColor = '#4A6984';
                 submitBtn.style.borderColor = '#4A6984';
                 submitBtn.style.color = '#FAFAF8';
@@ -786,15 +658,9 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
             const caseStudyDrawer = document.getElementById('case-study-drawer');
-            const noteDrawer = document.getElementById('note-drawer');
             
             if (caseStudyDrawer && caseStudyDrawer.classList.contains('active')) {
                 const closeBtn = caseStudyDrawer.querySelector('.drawer-close-btn');
-                if (closeBtn) closeBtn.click();
-            }
-            
-            if (noteDrawer && noteDrawer.classList.contains('active')) {
-                const closeBtn = noteDrawer.querySelector('.drawer-close-btn');
                 if (closeBtn) closeBtn.click();
             }
         }
